@@ -12,5 +12,10 @@ int main () {
       n[ i ] = i + 100; /* set element at location i to i + 100 */
    }
 
+   /* output each array element's value */
+   for (j = 0; j < 10; j++ ) {
+      printf("Element[%d] = %d\n", j, n[j] );
+   }
+
    return 0;
 }
